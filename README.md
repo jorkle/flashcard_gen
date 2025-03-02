@@ -22,7 +22,7 @@ Generates Anki flashcards from the information on the clipboard using OpenAI API
 4. Replace `<PURPOSE>` with the **purpose** for the flashcards. This is used in the prompt so that the AI creates flashcards that focus on the **purpose** that you specified.
 5. Replace `<OPENAI-API-KEY` with your **OpenAI API Key**.
 
-![demo](https://i.imgur.com/KBHejsz.mp4)
+![https://github.com/jorkle/flashcard_gen/blob/main/docs/demo.png](https://github.com/jorkle/flashcard_gen/blob/main/docs/demo.mp4)
 
 ## Usage
 1. Open Anki (desktop app)
