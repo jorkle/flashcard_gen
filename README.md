@@ -1,6 +1,8 @@
 # AI (OpenAI) Anki Flashcard Generator
 Generates Anki flashcards from the information on the clipboard using OpenAI API and AnkiConnector addon.
 
+![help cli usage](https://github.com/jorkle/flashcard_gen/blob/main/docs/help.png?raw=true)
+
 ## Requirements
 1. Anki (Desktop application)
 2. AnkiConnector (Anki Addon)
