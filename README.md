@@ -23,7 +23,7 @@ Generates Anki flashcards from the information on the clipboard using OpenAI API
 5. Replace `<OPENAI-API-KEY` with your **OpenAI API Key**.
 
 ## Demo
-[![Demo video](https://raw.githubusercontent.com/jorkle/flashcard_gen/refs/heads/main/docs/demo.png)](https://raw.githubusercontent.com/jorkle/flashcard_gen/refs/heads/main/docs/Demo.mp4)
+[![Demo video](https://raw.githubusercontent.com/jorkle/flashcard_gen/refs/heads/main/docs/demo.png)](https://i.imgur.com/KBHejsz.mp4)
 
 ## Usage
 1. Open Anki (desktop app)
