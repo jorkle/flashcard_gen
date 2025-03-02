@@ -19,7 +19,7 @@ class Anki:
 
     def add_card(self, front: str, back: str) -> None:
         self.anki(
-            "addNote",
+            "guiAddCards",
             note={
                 "deckName": self.deck_name,
                 "modelName": "Basic",

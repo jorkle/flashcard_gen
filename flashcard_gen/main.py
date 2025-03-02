@@ -59,13 +59,11 @@ def main():
     gui = GUI()
     anki = Anki(flashcard_gen.args.anki_deck)
     for flashcard in flashcards:
-        if gui.prompt(flashcard.front, flashcard.back):
-            anki.add_note(
-                flashcard_gen.args.anki_deck,
-                flashcard["front"],
-                flashcard["back"],
-            )
-            anki.disconnect()
+        anki.add_card(
+            flashcard.front,
+            flashcard.back,
+        )
+        gui.prompt()
 
 
 if __name__ == "__main__":
