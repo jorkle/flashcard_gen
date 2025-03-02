@@ -1,0 +1,24 @@
+[project]
+name = "flashcard-gen"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Kyle Walters",email = "kyle@jorkle.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "py-ankiconnect (>=1.1.2,<2.0.0)",
+    "openai (>=1.65.2,<2.0.0)",
+    "pydantic (>=2.10.6,<3.0.0)",
+    "aiohttp (>=3.11.13,<4.0.0)",
+    "freesimplegui (>=5.1.1,<6.0.0)",
+    "tk (>=0.1.0,<0.2.0)",
+    "clipboard (>=0.0.4,<0.0.5)",
+]
+[project.scripts]
+flashcard-gen = "flashcard_gen.main:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
